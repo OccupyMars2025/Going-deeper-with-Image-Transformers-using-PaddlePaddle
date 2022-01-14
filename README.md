@@ -4,7 +4,9 @@ implement paper "Going deeper with Image Transformers" with PaddlePaddle
 The implemented model is called "CaiT"(Class Attention Image Transformer)      
 contest website:      
 https://github.com/PaddlePaddle/Paddle/issues/37401    
-https://aistudio.baidu.com/aistudio/competition/detail/126/0/task-definition     
+https://aistudio.baidu.com/aistudio/competition/detail/126/0/task-definition      
+AI studio:    
+https://aistudio.baidu.com/aistudio/projectdetail/3383308?contributionType=1
          
          
 current training log:      
