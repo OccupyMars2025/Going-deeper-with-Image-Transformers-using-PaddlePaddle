@@ -12,3 +12,8 @@ https://aistudio.baidu.com/aistudio/projectdetail/3383308?contributionType=1
 current training log:      
 epoch: 1, batch_id: 0, loss is: [4.3869734], acc is: [0.15625]   (batch_size is 64)
 
+
+2022/5/9:    
+problem:    
+https://github.com/PaddlePaddle/Paddle/issues/42609
+
