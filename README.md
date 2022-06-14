@@ -1,3 +1,6 @@
+TODO:  modify  how  to  generate random numbers (originally use torch.rand,  you have to  change it to paddle.rand, don't forget ) in  _add_noise  in  task3-Going-deeper-with-Image-Transformers\CaiT_paddle\ppimm\scheduler\cosine_lr.py
+
+
 # Going-deeper-with-Image-Transformers-using-PaddlePaddle     
 task 11.      
 implement paper "Going deeper with Image Transformers" with PaddlePaddle       
