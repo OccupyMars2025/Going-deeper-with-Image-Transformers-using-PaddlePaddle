@@ -1,4 +1,6 @@
-TODO:  modify  how  to  generate random numbers (originally use torch.rand,  you have to  change it to paddle.rand, don't forget ) in  _add_noise  in  task3-Going-deeper-with-Image-Transformers\CaiT_paddle\ppimm\scheduler\cosine_lr.py
+TODO:     
+1.  modify  how  to  generate random numbers (originally use torch.rand,  you have to  change it to paddle.rand, don't forget ) in  _add_noise  in  task3-Going-deeper-with-Image-Transformers\CaiT_paddle\ppimm\scheduler\cosine_lr.py    
+2.  in  05_test_backward.py,  because  paddle's  lr_schedular  use step() in  its  __init__ method,  so in  torch, after creating the lr_schedular, I add lr_schedular.step() to  make these two  lr_schedulars synchronous, how to solve this problem ???
 
 
 # Going-deeper-with-Image-Transformers-using-PaddlePaddle     
