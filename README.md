@@ -52,6 +52,8 @@ You need to use your own `class ImageNetDataset` in the function `build_dataset`
 ```shell
 python main.py --eval --resume  https://dl.fbaipublicfiles.com/deit/XXS24_224.pth  --model  cait_XXS24_224  --data-path  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\ILSVRC2012_img_val   --train-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\train_list_empty.txt     --val-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\val_list.txt
 ```
+    
+## If you want to set "--model"  to "cait_XXS24_224", you need to "import cait_models" in main.py. Just like if you want to use the default value of "--model", then you need to "import models" in main.py, thus the decorator "@register_model" can work.
 
 ## Caution: adding convert('RGB') is essential, or it probably will report an error if an image is not in "RGB" format
 ```python
