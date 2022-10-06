@@ -46,6 +46,8 @@ pip install timm==0.3.2
 # 2. Now, the conda environment is configured and you can evaluate cait-XXS24-224 model on [imagenet validation dataset](https://aistudio.baidu.com/aistudio/datasetdetail/68594). The "resume" and "model" arguments are copied from the source code as the following shows:                 
     
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/31559413/194271488-3f2745eb-eb92-4c4c-a9d9-43ed24fa9376.png">
+You need to use your own `class ImageNetDataset` in the function `build_dataset`
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/31559413/194288641-fa1d8c1c-bd1f-490b-a74c-cc70c8450258.png">
 
 ```shell
 python main.py --eval --resume  https://dl.fbaipublicfiles.com/deit/XXS24_224.pth  --model  cait_XXS24_224  --data-path  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\ILSVRC2012_img_val   --train-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\train_list_empty.txt     --val-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\val_list.txt
