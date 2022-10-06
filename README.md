@@ -22,3 +22,8 @@ epoch: 1, batch_id: 0, loss is: [4.3869734], acc is: [0.15625]   (batch_size is 
 problem:    
 https://github.com/PaddlePaddle/Paddle/issues/42609
 
+2022/10/1:
+lwfx, 7th
+<img width="572" alt="image" src="https://user-images.githubusercontent.com/31559413/194200939-edfec100-0272-41fb-b5bb-6de6794045a3.png">
+
+
