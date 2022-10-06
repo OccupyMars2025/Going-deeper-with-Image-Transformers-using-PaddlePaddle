@@ -30,21 +30,22 @@ https://github.com/PaddlePaddle/Paddle/issues/42609
 <img width="572" alt="image" src="https://user-images.githubusercontent.com/31559413/194200939-edfec100-0272-41fb-b5bb-6de6794045a3.png">
 
 
-# 1. setup a conda environment on local machine (windows 11):
-(first update conda version.)
-conda update -n base -c defaults conda
-(pay attention to all kinds of versions)
-conda create --name paddle-2.3-pytorch-1.8-python-3.7-env  python==3.7 
-conda activate paddle-2.3-pytorch-1.8-python-3.7-env
-(Pytorch LTS version 1.8.2 is only supported for Python <= 3.8)
-conda install pytorch torchvision torchaudio cpuonly -c pytorch-lts
-conda install paddlepaddle==2.3.2 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/
-(install the required version of timm)
-pip install timm==0.3.2
+# 1. setup a conda environment on local machine (windows 11):    
+(first update conda version.)    
+conda update -n base -c defaults conda     
+(pay attention to all kinds of versions)     
+conda create --name paddle-2.3-pytorch-1.8-python-3.7-env  python==3.7    
+conda activate paddle-2.3-pytorch-1.8-python-3.7-env              
+(Pytorch LTS version 1.8.2 is only supported for Python <= 3.8)           
+conda install pytorch torchvision torchaudio cpuonly -c pytorch-lts              
+conda install paddlepaddle==2.3.2 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/             
+(install the required version of timm)            
+pip install timm==0.3.2             
 
 
 # 2. Now, the conda environment is configured and you can evaluate cait-XXS24-224 model on imagenet validation dataset. The 
-"resume" and "model" arguments are copied from the source code as the following shows:
+"resume" and "model" arguments are copied from the source code as the following shows:                 
+    
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/31559413/194271488-3f2745eb-eb92-4c4c-a9d9-43ed24fa9376.png">
 
 
