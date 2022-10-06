@@ -52,3 +52,14 @@ You need to use your own `class ImageNetDataset` in the function `build_dataset`
 ```shell
 python main.py --eval --resume  https://dl.fbaipublicfiles.com/deit/XXS24_224.pth  --model  cait_XXS24_224  --data-path  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\ILSVRC2012_img_val   --train-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\train_list_empty.txt     --val-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\val_list.txt
 ```
+
+## Caution: adding convert('RGB') is essential, or it probably will report an error if an image is not in "RGB" format
+```python
+image = Image.open(image_path).convert('RGB')
+```
+```shell
+==================== before transformation <PIL.JpegImagePlugin.JpegImageFile image mode=L size=500x375 at 0x29C3C2B2438>
+==================== The image that cause the error: C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\ILSVRC2012_img_val\ILSVRC2012_val_00001769.JPEG
+==================== The image that cause the error: <PIL.JpegImagePlugin.JpegImageFile image mode=L size=500x375 at 0x29C3C2B2438>
+None
+```
