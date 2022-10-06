@@ -43,10 +43,10 @@ conda install paddlepaddle==2.3.2 --channel https://mirrors.tuna.tsinghua.edu.cn
 pip install timm==0.3.2             
 
 
-# 2. Now, the conda environment is configured and you can evaluate cait-XXS24-224 model on imagenet validation dataset. The 
-"resume" and "model" arguments are copied from the source code as the following shows:                 
+# 2. Now, the conda environment is configured and you can evaluate cait-XXS24-224 model on imagenet validation dataset. The "resume" and "model" arguments are copied from the source code as the following shows:                 
     
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/31559413/194271488-3f2745eb-eb92-4c4c-a9d9-43ed24fa9376.png">
 
-
+```shell
 python main.py --eval --resume  https://dl.fbaipublicfiles.com/deit/XXS24_224.pth  --model  cait_XXS24_224  --data-path  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset
+```
