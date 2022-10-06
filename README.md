@@ -48,5 +48,5 @@ pip install timm==0.3.2
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/31559413/194271488-3f2745eb-eb92-4c4c-a9d9-43ed24fa9376.png">
 
 ```shell
-python main.py --eval --resume  https://dl.fbaipublicfiles.com/deit/XXS24_224.pth  --model  cait_XXS24_224  --data-path  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset
+python main.py --eval --resume  https://dl.fbaipublicfiles.com/deit/XXS24_224.pth  --model  cait_XXS24_224  --data-path  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\ILSVRC2012_img_val   --train-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\train_list_empty.txt     --val-info-txt  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\imagenet_dataset\val_list.txt
 ```
