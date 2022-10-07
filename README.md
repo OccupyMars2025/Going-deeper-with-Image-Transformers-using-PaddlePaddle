@@ -92,6 +92,8 @@ None
 ```
 ## Error: No mudule named ppimm is found 
 ## Solution is as follows: add the path of the folder where ppimm is located to the PYTHONPATH. ppimm is just the same as timm but written with PaddlePaddle
-if any module is not found, maybe you can to C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\Going-deeper-with-Image-Transformers-using-PaddlePaddle\CaiT_paddle  and  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\Going-deeper-with-Image-Transformers-using-PaddlePaddle\CaiT_torch to the PYTHONPATH
+if any module is not found, maybe you can to C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\Going-deeper-with-Image-Transformers-using-PaddlePaddle\CaiT_paddle  and  C:\Users\Administrator\Desktop\contests\20220715_paddle_lwfx_7th\Going-deeper-with-Image-Transformers-using-PaddlePaddle\CaiT_torch to the PYTHONPATH       
+
+
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/31559413/194469915-d2121833-db34-4091-a989-f65fd7308dd6.png">
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/31559413/194469997-eede3062-af37-4c5f-a7ca-14ddcdcb7bcf.png">
