@@ -23,6 +23,7 @@ problem:
 https://github.com/PaddlePaddle/Paddle/issues/42609
 
 # 2022/10/1:  lwfx, 7th, paper 59
+# Caution: when reproducing the model, if you want to pass all forward and backward checks, you need to remove all random factors (pay attention to the arguments of cait_models, set some arguments to 0 to remove the random factors)
 
 # [validation dataset](https://aistudio.baidu.com/aistudio/datasetdetail/68594)
 
