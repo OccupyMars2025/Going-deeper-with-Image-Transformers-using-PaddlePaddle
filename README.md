@@ -89,3 +89,7 @@ image = Image.open(image_path).convert('RGB')
 ==================== The image that cause the error: <PIL.JpegImagePlugin.JpegImageFile image mode=L size=500x375 at 0x29C3C2B2438>
 None
 ```
+## Error: No mudule named ppimm is found
+## Solution is as follows:
+![img.png](img.png)
+![img_1.png](img_1.png)
