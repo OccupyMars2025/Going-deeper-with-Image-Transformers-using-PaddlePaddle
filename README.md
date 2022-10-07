@@ -92,5 +92,5 @@ None
 ```
 ## Error: No mudule named ppimm is found
 ## Solution is as follows:
-![img.png](img.png)
-![img_1.png](img_1.png)
+<img width="288" alt="image" src="https://user-images.githubusercontent.com/31559413/194469915-d2121833-db34-4091-a989-f65fd7308dd6.png">
+<img width="538" alt="image" src="https://user-images.githubusercontent.com/31559413/194469997-eede3062-af37-4c5f-a7ca-14ddcdcb7bcf.png">
