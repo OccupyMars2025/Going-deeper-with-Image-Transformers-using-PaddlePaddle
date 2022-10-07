@@ -90,7 +90,7 @@ image = Image.open(image_path).convert('RGB')
 ==================== The image that cause the error: <PIL.JpegImagePlugin.JpegImageFile image mode=L size=500x375 at 0x29C3C2B2438>
 None
 ```
-## Error: No mudule named ppimm is found
-## Solution is as follows:
+## Error: No mudule named ppimm is found 
+## Solution is as follows: add the path of the folder where ppimm is located to the python path. ppimm is just the same as timm but written with PaddlePaddle
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/31559413/194469915-d2121833-db34-4091-a989-f65fd7308dd6.png">
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/31559413/194469997-eede3062-af37-4c5f-a7ca-14ddcdcb7bcf.png">
