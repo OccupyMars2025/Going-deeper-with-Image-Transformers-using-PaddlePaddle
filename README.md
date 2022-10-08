@@ -100,3 +100,6 @@ if any module is not found, maybe you can to C:\Users\Administrator\Desktop\cont
 
 ## When running 02_test_data.py, it report an error which is not fatal. The error is described in the following issue:    
 https://github.com/PaddlePaddle/Paddle/issues/46774
+
+# current progress: 
+I passed 02_test_data.py at 2022/10/8 12:00
