@@ -101,5 +101,8 @@ if any module is not found, maybe you can to C:\Users\Administrator\Desktop\cont
 ## When running 02_test_data.py, it report an error which is not fatal. The error is described in the following issue:    
 https://github.com/PaddlePaddle/Paddle/issues/46774
 
+## The result of the evaluation of the pytorch model
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/31559413/194698381-a6ab684a-5c9d-4b64-9576-8cb0ef38043c.png">
+
 # current progress: 
 I passed 02_test_data.py at 2022/10/8 12:00
